@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Проєкт 0 — TODO</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <h1>TODO</h1>
+      <div class="counters">
+        <span id="total">Всього: 0</span>
+        <span id="unchecked">Невідмічених: 0</span>
+      </div>
+    </header>
+
+    <div class="add-box">
+      <input id="task" type="text" placeholder="Введіть завдання" class="text-input">
+      <button id="newTodo" class="btn">Додати</button>
+    </div>
+
+    <ul id="list" class="list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
